@@ -1,0 +1,25 @@
+{
+  "name": "aag-new-contract-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "softskillpro",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts",
+    "lint": "eslint --ext .js,.ts ."
+  },
+  "dependencies": {
+    "@types/node": "^18.6.3",
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4",
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "ts-node": "^10.9.1"
+  }
+}
